@@ -15,8 +15,8 @@ const Home = () => {
     <div name = "home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
-            <h2 className='text-4xl sm:text-7xl font-bold text-white animate-pulse mb-3' data-aos="fade-right">I'm a Full Stack Developer</h2>
-            <p className='text-gray-500 py-6 max-w-md 'data-aos="fade-down" >With 1.5 Year Of Expierence builing and designing Software, <br/>
+            <h2 className='text-4xl sm:text-7xl font-bold text-white animate-pulse mb-3' >I'm a Full Stack Developer</h2>
+            <p className='text-gray-500 py-6 max-w-md'data-aos="fade-down" >With 1.5 Year Of Expierence builing and designing Software, <br/>
                 I am Proficient in MERN Stack as well as In Automation Through Python With Certification Of AWS Associate Solution Architecture and Have great 
                 Knowledge In Machine Learning , Data Science , MYSQL and Linux
             </p>

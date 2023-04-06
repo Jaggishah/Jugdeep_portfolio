@@ -3,9 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 const Contact = () => {
-    useEffect(()=>{
-        Aos.init({duration:1500});
-      })
+   
   return (
     <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
@@ -15,7 +13,7 @@ const Contact = () => {
             </div>
           
         
-        <div className='flex justify-center items-center' data-aos="fade-down-right">
+        <div className='flex justify-center items-center' data-aos="fade-up">
             <form action="https://getform.io/f/8d34404a-337d-45c6-9538-77677ec69eeb" method='POST' className='flex flex-col w-full md:w-1/2'>
                 <input type="text" name="name" placeholder='Enter Your Name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
                 <input type="text" name="email" placeholder='Enter Your Email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
