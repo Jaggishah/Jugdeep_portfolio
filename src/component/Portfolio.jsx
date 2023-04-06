@@ -61,7 +61,7 @@ const Portfolio = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
             <p className='py-6'>Check Out of My work right here</p>
         </div>
-        <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0' data-aos="fade-right">
+        <div  className='grid sm:grid-cols-2 md:grid-cols-4 gap-9 px-12 sm:px-12' data-aos="fade-right">
         {
             portfolios.map(({id,src,link})=>(                
          
